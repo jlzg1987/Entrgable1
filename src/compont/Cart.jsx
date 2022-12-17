@@ -18,8 +18,8 @@ const Cart = () => {
         <div className='carditem' style={{color: colors[countColor]} } >
             <p>{DataBase[count].quote}</p>
             <h4>{DataBase[count].author}</h4>
-            <button onClick={ButtonRandom} className='bttRandom' >
-            <i class="fa-solid fa-code"> R</i>
+            <button onClick={ButtonRandom} className='bttRandom' style={{background: colors[countColor]} }>
+            <i class="fa-solid fa-angles-right"></i> 
                 </button>
         </div>
     );
