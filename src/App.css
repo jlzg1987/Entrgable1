@@ -1,0 +1,68 @@
+#root {
+ 
+  max-width: 1280px;
+  
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+ 
+}
+
+.carditem{
+  background: rgb(160, 160, 160);
+  width: 100%;
+  width: 400px;
+  height: 100%;
+  height: 200px;
+  border: .15rem solid rgb(13, 189, 243);
+  border-radius: 20px;
+  box-shadow: 8px 18px 16px 8px rgba(3, 179, 248, 0.404);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.carditem p {
+  position: absolute;
+  text-align: left;
+  left: 20px;
+  top: 30px;
+  right: 20px;
+  margin: 0 auto;
+  
+}
+.carditem h4 {
+  position: absolute;
+  bottom: 80px;
+  right: 20px;
+  margin: 0;
+  font-size: 20px;
+}
+.bttRandom {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #dfa0a0;
+  box-shadow: 3px 3px 6px 3px rgba(217, 42, 240, 0.404);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  text-align: center;
+}
+.bttRandom:hover{
+  border: .10rem solid black;
+  text-align: left;
+  font-size: 18px;
+}
+
